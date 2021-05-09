@@ -6,3 +6,152 @@
     style.css: You will write your css code for your portfolio website here. You can add other css files too but it must be under "css" folder.
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Itim&family=Lobster&family=Quicksand&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+  Background-color: #734046
+  
+}  
+.box{
+  Background-color: #321f28;
+  padding: 250px 0px 250px 0px;
+  border-bottom: 7px solid black;
+  
+}
+
+h2{
+  color: white !important;
+  text-align: center;
+  font-family: Quicksand, arial;
+  font-size: 36px;
+}
+h3{
+  color: cyan !important;
+  text-align: center;
+  font-family: Cairo, arial;
+  font-size: 26px;
+}
+
+.img {
+height: 640px;
+width: 426px;
+border: 5px solid black;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+border-bottom: 7px solid black;
+border-top: 7px solid black;
+}
+
+.right {
+float: right;
+}
+.litag{
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #111;
+}
+h4{
+color:  rgb(255, 255, 255);
+font-family: Poppins;
+}
+.pic{
+height: 400px;
+width: 300px;
+border-radius: 30px;
+border: 5px solid black;
+}
+.Name{
+Color: rgb(74, 235, 0);
+}
+.NavBar{
+Color: rgb(253, 156, 182);
+}
+.content {
+          background-color: #0e0d0dbd;
+          padding: 10px;
+          border: 5px solid rgb(90, 82, 82);
+}
+.header {
+  background-color: #321f28
+}
+.aboutUsH1 {
+text-align: center;
+font-size: 54px;
+color: white;
+font-family: Cairo;
+padding-bottom: 20px;
+padding-top: 20px;
+border: 5px solid rgb(0, 0, 0);
+}
+.per{
+  background-color: #321f28;  
+  border: 2px solid black;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  font-family: Varela Round;
+  font-size: 25px;
+}
+.newh2{
+color: rgb(149, 243, 8);
+}
+a:hover {
+color: #ffffff;
+border: 2px solid #f0f0e6;  
+transition: all 0.3s ease;
+}
+.a1 {
+colour: blue;
+} 
+.abouth3{
+background-color:#321f28;
+font-size: 45px !important;
+font-color: white !important; 
+
+}
+.contactBox{
+background-color: #131414;
+}
+.NavBar1{
+Color: rgb(19, 219, 219);
+}
+.NavBox{
+background-color: #22141b;
+}
+.aboutUsH3{
+color: rgb(241, 245, 7) !important;
+font-size: 40px;  
+
+}
+.Cyan{
+color: cyan;
+padding: 10px 10px 10px 10px;
+}
+.Black{
+Background-color:Black !important;
+font: white !important;
+}
+p{
+font-family: Source Sans Pro;
+line-height:30px;
+font-size:20px;
+}
+.green{
+color:rgb(74, 235, 0);
+}
